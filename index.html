@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio - Elisha</title>
+    <style>
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background-color: #f0f0f0;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .gallery,
+      .videos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-top: 30px;
+        padding: 0 10px;
+      }
+
+      .card {
+        background: #fff;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+      }
+
+      .card:hover {
+        transform: scale(1.03);
+      }
+
+      .card img,
+      .card video {
+        width: 100%;
+        border-radius: 6px;
+        max-height: 280px;
+        object-fit: cover;
+      }
+
+      .caption {
+        margin-top: 10px;
+        font-size: 14px;
+        color: #555;
+      }
+
+      a.pdf-link {
+        text-decoration: none;
+        color: #0077cc;
+        font-weight: bold;
+      }
+
+      a.pdf-link:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My Design & Media Portfolio</h1>
+    <p>Posters, banners, videos and proposal work</p>
+
+    <!-- 📸 Image Gallery -->
+    <div class="gallery">
+      <div class="card">
+        <img src="assets/My designs/7.png" />
+        <div class="caption">Poster 7</div>
+      </div>
+      <div class="card">
+        <img src="assets/My designs/8.png" />
+        <div class="caption">Poster 8</div>
+      </div>
+      <div class="card">
+        <img src="assets/My designs/BEVERAGE2.jpg" />
+        <div class="caption">Beverage Sponsor Poster</div>
+      </div>
+      <div class="card">
+        <img src="assets/My designs/GOLD sponser.jpg" />
+        <div class="caption">Gold Sponsor Poster</div>
+      </div>
+      <div class="card">
+        <img src="assets/My designs/IMG_8677.PNG" />
+        <div class="caption">Event Snap</div>
+      </div>
+      <div class="card">
+        <img src="assets/My designs/Thank you.png" />
+        <div class="caption">Thank You Poster</div>
+      </div>
+      <div class="card">
+        <img src="assets/My designs/food3.jpg" />
+        <div class="caption">Food Partner Poster</div>
+      </div>
+      <div class="card">
+        <img src="assets/My designs/joinnow.jpg" />
+        <div class="caption">Join Now Post</div>
+      </div>
+      <div class="card">
+        <img src="assets/My designs/rangikasirthank.jpg" />
+        <div class="caption">Speaker Appreciation</div>
+      </div>
+      <div class="card">
+        <img src="assets/My designs/registration.jpg" />
+        <div class="caption">Registration Poster</div>
+      </div>
+      <div class="card">
+        <img src="assets/My designs/session1thank.jpg" />
+        <div class="caption">Session 1 Thank You</div>
+      </div>
+      <div class="card">
+        <img src="assets/My designs/spotight partner.jpg" />
+        <div class="caption">Spotlight Partner</div>
+      </div>
+      <div class="card">
+        <img src="assets/My designs/staytunedpost.jpg" />
+        <div class="caption">Stay Tuned</div>
+      </div>
+      <div class="card">
+        <img src="assets/My designs/thankpost.jpg" />
+        <div class="caption">Thank You Post</div>
+      </div>
+      <div class="card">
+        <img src="assets/My designs/thankyou.jpg" />
+        <div class="caption">Final Thanks</div>
+      </div>
+    </div>
+
+    <!-- 🎥 Video Section -->
+    <h2 style="margin-top: 60px">🎥 Video Showcase</h2>
+    <div class="videos">
+      <div class="card">
+        <video controls>
+          <source src="assets/My designs/staytuned.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="caption">Stay Tuned Video</div>
+      </div>
+
+      <div class="card">
+        <a
+          class="pdf-link"
+          href="assets/My designs/registrationopen video.mp4"
+          target="_blank"
+        >
+          🔗 Download/Watch Registration Open Video
+        </a>
+        <div class="caption">Large video (opens separately)</div>
+      </div>
+    </div>
+
+    <!-- 📄 PDF Links -->
+    <h2 style="margin-top: 60px">📄 Proposals & PDFs</h2>
+    <div class="gallery">
+      <div class="card">
+        <a
+          class="pdf-link"
+          href="assets/My designs/Food Partner.pdf"
+          target="_blank"
+          >📄 Food Partner PDF</a
+        >
+        <div class="caption">Proposal Document</div>
+      </div>
+      <div class="card">
+        <a
+          class="pdf-link"
+          href="assets/My designs/Beverage Partner.pdf"
+          target="_blank"
+          >📄 Beverage Partner PDF</a
+        >
+        <div class="caption">Proposal Document</div>
+      </div>
+      <div class="card">
+        <a
+          class="pdf-link"
+          href="assets/My designs/Partnership Proposal - INNOVELEC’25.v3.pdf"
+          target="_blank"
+        >
+          📄 INNOVELEC'25 Proposal PDF
+        </a>
+        <div class="caption">Partnership Proposal</div>
+      </div>
+    </div>
+  </body>
+</html>
